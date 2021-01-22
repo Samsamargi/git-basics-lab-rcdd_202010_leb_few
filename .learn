@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ;tags:
   - lab
   - git
@@ -9,3 +10,10 @@
 languages:
   - none
 resources: 0
+=======
+tags:
+- lab
+languages:
+- JavaScript
+    
+>>>>>>> 608e0d1640d51b6077238821879180e1f3258587

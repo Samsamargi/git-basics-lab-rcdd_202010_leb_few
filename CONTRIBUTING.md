@@ -1,6 +1,13 @@
 # Contributing to Learn.co Curriculum
 
+<<<<<<< HEAD
 We're really exited that you're about to contribute to the [open curriculum](https://learn.co/content-license) on [Learn.co](https://learn.co). If this is your first time contributing, please continue reading to learn how to make the most meaningful and useful impact possible.
+=======
+We're really excited that you're about to contribute to the [open
+curriculum](https://learn.co/content-license) on [Learn.co](https://learn.co).
+If this is your first time contributing, please continue reading to learn how
+to make the most meaningful and useful impact possible.
+>>>>>>> 608e0d1640d51b6077238821879180e1f3258587
 
 ## Raising an Issue to Encourage a Contribution
 

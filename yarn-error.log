@@ -1,0 +1,88 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install --no-lockfile
+
+PATH: 
+  /var/opt/rails/bin:/var/opt/httpserver/bin:/var/opt/atom/bin:/var/opt/shotgun/bin:/var/opt/rackup/bin:/var/opt/jekyll/bin:/usr/local/rvm/gems/ruby-2.6.1/bin:/usr/local/rvm/gems/ruby-2.6.1@global/bin:/usr/local/rvm/rubies/ruby-2.6.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/rvm/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.16.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/functional-course-1034/git-basics-lab-rcdd_202010_leb_few/package.json: Unexpected token < in JSON at position 5
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    <<<<<<< HEAD
+      "name": "git-basics-lab",
+      "version": "1.0.0",
+      "description": "## Objectives 1. Practice your GitHub command line skills 2. Create a remote repository on GitHub and connect it with a local folder",
+      "directories": {
+        "test": "test"
+      },
+      "scripts": {
+        "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/learn-co-curriculum/git-remote-code-along.git"
+      },
+      "keywords": [
+        "git",
+        "lab"
+      ],
+      "author": "flatiron school",
+      "license": "ISC",
+      "bugs": {
+        "url": "https://github.com/learn-co-curriculum/git-remote-code-along/issues"
+      },
+      "homepage": "https://github.com/learn-co-curriculum/git-remote-code-along#readme",
+      "devDependencies": {
+        "chai": "^3.5.0",
+        "expect": "^1.20.2",
+        "jsdom": "^9.2.0",
+        "mocha": "^6.1.4",
+        "mocha-jsdom": "~1.1.0",
+        "mocha-multi": "^1.1.0"
+      },
+      "dependencies": {
+        "chai-fs": "^2.0.0"
+    =======
+      "name": "javascript-lab",
+      "version": "1.0.0",
+      "description": "A JavaScript lab",
+      "main": "index.js",
+      "scripts": {
+        "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
+      },
+      "author": "flatironschool",
+      "license": "Included in Repo",
+      "devDependencies": {
+        "babel-core": "6.26.3",
+        "babel-preset-env": "1.7.0",
+        "chai": "4.1.2",
+        "file-system": "2.2.2",
+        "jsdom": "9.2.1",
+        "mocha": "5.2.0",
+        "mocha-jsdom": "~1.1.0",
+        "mocha-multi": "1.0.1"
+    >>>>>>> 608e0d1640d51b6077238821879180e1f3258587
+      }
+    }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
